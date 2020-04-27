@@ -1,0 +1,1370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03031A0426F3F4856AD96D3D6B4D37C5 /* Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15D96D4BB84D013CBA23A9C6BAECC7 /* Type.swift */; };
+		0320BF6A9F60413E4CF1E8CFF0E5B6A4 /* Swinject.h in Headers */ = {isa = PBXBuildFile; fileRef = 82BBED52077788CA6F649860539A4008 /* Swinject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050C568E3BA73173980F463DFB08778B /* ServiceEntry.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09465ACD84802E78A5EF12A9E4A0FF9E /* ServiceEntry.TypeForwarding.swift */; };
+		085D3AC8A8D3073D6F8C75E282E134F5 /* SwinjectStoryboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8579086FEA828D38209B08A45895500 /* SwinjectStoryboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B4C5F38682EE4ABBA0A406C5B45897C /* GraphIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485CEE5C186465CBC7B1708976D32A73 /* GraphIdentifier.swift */; };
+		12015E8F1145CB5D99F0D9BF5AD0F3A1 /* ObjectScope.Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5532309DCD545D1CEE7109E43E95B863 /* ObjectScope.Standard.swift */; };
+		12BB6EA1F429E03FD8537426CA8649B1 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA8233E735A7258BBD93093E1AA5C7A /* Swinject.framework */; };
+		1841D0599340B9B3CB513F7B45B8B832 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CAC6C5BA873A41311EF09DCC897B91 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-dummy.m */; };
+		186177B11336F5B387FB53823CCFAB38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33309C8BFF8B1F3130A0F07100E27F41 /* Foundation.framework */; };
+		1D66FD7BED1FC46A46F33E685CB1ADA4 /* ServiceEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977B44E203ADD0BD57F0971A8E7BF75F /* ServiceEntry.swift */; };
+		1DB8F37A8290A681161B34FF03768686 /* SwinjectStoryboard.h in Headers */ = {isa = PBXBuildFile; fileRef = 257390EFEF9263F2D470C0E649709132 /* SwinjectStoryboard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		270C318D84F6CEA035266525A50393A7 /* SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008C0550E774D086A6F49097F5D3E548 /* SwinjectStoryboard.swift */; };
+		289A45F6FC903F7CACB7A296B2E1B0CF /* _SwinjectStoryboardBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9375FC12476692CA40D01CFAFC1132 /* _SwinjectStoryboardBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28FF3D85AABAF3BFEF1E11D421133D67 /* ResolutionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E6DEAFA92B7D45EB09A9445EE2B4F3 /* ResolutionError.swift */; };
+		2BE6C561983E03729CCF1405B3F7FBA8 /* ObjectScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCBFDFF951CEABF61D360404AD1E7AF /* ObjectScope.swift */; };
+		2C0896A1185D8B117CF641D544B37756 /* UIStoryboard+Swizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AE6E462E27C0F58E60A01B11F393930 /* UIStoryboard+Swizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DD5198D3A7F3176CB395B0610B1E480 /* SynchronizedResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5432735EA81ED7909BBF95C14AD2978C /* SynchronizedResolver.swift */; };
+		2EE54EC7ECDA42C13C4F48916BFDB12C /* DebugHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFE48E47990CE3B1FA212CCE4C40144D /* DebugHelper.swift */; };
+		2F2A4E1978280B3DCFB683E8C72198B7 /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4843009EBFC6AAFE07AB22EEA544F34C /* Resolver.swift */; };
+		303039803386B5BFD467902899141CD2 /* ServiceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B16C70AD57B314D77F6409772A3002 /* ServiceKey.swift */; };
+		366D87585B9B71DC5BDF3D7B7FA9F847 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAA8233E735A7258BBD93093E1AA5C7A /* Swinject.framework */; };
+		3A4B8499C44910542E25E6F7F03575CE /* SwinjectAutoregistration-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC5DF8787179CBD2DE89AFA6653C6DE /* SwinjectAutoregistration-dummy.m */; };
+		3AB55A5F673A158AE005B317D824EB5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33309C8BFF8B1F3130A0F07100E27F41 /* Foundation.framework */; };
+		3C5CCEA05783430FFF25364FA4A65E78 /* SwinjectStoryboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A53F3C626D32D27224F1C79A9E4E8A3 /* SwinjectStoryboard-dummy.m */; };
+		40897F6CE4846A0B638385DD57F19A1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33309C8BFF8B1F3130A0F07100E27F41 /* Foundation.framework */; };
+		410D90F0983E136B023488FD8C4031D6 /* InstanceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768F0E9566EDA2FA642CC4AABF5BE06D /* InstanceWrapper.swift */; };
+		43F110443A12380FC5D1A9498285F60E /* SwinjectStoryboardOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A8D87A93BA1FD610AD8C76824496CC /* SwinjectStoryboardOption.swift */; };
+		44B1AACE3B51995D030C8EEDE200CEBA /* ViewController+Swinject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1656D351291107DE791CF9ABDE94C /* ViewController+Swinject.swift */; };
+		4A310BBCD0D1EBD4C15BF0912D84D936 /* InjectionVerifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC796F03F1958180361A995EE65D8F2 /* InjectionVerifiable.swift */; };
+		4A6FE915E4D94D1630CBC36E5BE95670 /* SwinjectAutoregistration-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D57EEE47768801A5E125732F52AD3C9 /* SwinjectAutoregistration-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C4218248134D49CD349F0BC5AD11EDC /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5772F0966D15F42254FBD3388EB06 /* UnavailableItems.swift */; };
+		538BEBBDE082976E9153711BD802CAB5 /* SwinjectStoryboardProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = DD966C5DAACAC89F10F7188629CDC2A5 /* SwinjectStoryboardProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5474FB639FA51C1899E1DBE4979AF188 /* InstanceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B87A7E257E878F19CFC6763441E7215 /* InstanceStorage.swift */; };
+		574977C7CF4F2DF6E0FB64E79E2267FD /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C23FDA436CB043D4455363CD899EA6 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E6093189222761DABCF0ABB836CBD3F /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41000833DA2FC6733B4F40B8DFFB259E /* Resolver.swift */; };
+		636BF57AB45644C1E14DF687C3C484FF /* Container+SwinjectStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B29F4788F8302BB10F48FED2FA5276 /* Container+SwinjectStoryboard.swift */; };
+		6F14D5991C0E7E7FE61ECC622A73422A /* Assembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF764F83AA84F4DE255D0AA8EFBE4C5 /* Assembly.swift */; };
+		6F75C6351AC878C9AE44B14A2B3FC707 /* UnavailableItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9BAA3199D0CAEB00C68037376E0ABF /* UnavailableItems.swift */; };
+		7354ADCE13A1DA48D4BA20C8936CF425 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC989AF99AC6580ED3172E9F2A36676 /* Operators.swift */; };
+		7968ED3D5862C5374CFB480C6FC4EBFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33309C8BFF8B1F3130A0F07100E27F41 /* Foundation.framework */; };
+		797F78E38B84AD04989D285EA28FBFEC /* SynchronizedResolver.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748D7B28D0EC8CE362F2CE17C3EF76D5 /* SynchronizedResolver.Arguments.swift */; };
+		7CD92B345D1D6558C44749DE5239BEF4 /* Assembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFABB2AC2F9D573C44DB1E37C208774 /* Assembler.swift */; };
+		7D4DA079848B3E2E1F71DA76FA431194 /* Swinject-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 575C99D0D64F31F248ADACF1D1A465A8 /* Swinject-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86914FDCE5B14A7B40CC06BA7BD5994C /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64071FB3A9D300522EF7313D2A350E94 /* Box.swift */; };
+		9D25303F82C3BA6071FCB92146C5F835 /* TypeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5B95F04E253C606D868470B53AEF5F /* TypeParser.swift */; };
+		A26D8000B95488FED0701DF3FFF315F8 /* _Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7542651A4284DBEBD36D92B549AB2240 /* _Resolver.swift */; };
+		A4D25312A0CC165FB3DE4A4C7B499A25 /* Container.Arguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACD8A3877BD4E4567E44E55E1842173 /* Container.Arguments.swift */; };
+		AA3793CECFAC316243689B4CE15A6A44 /* SpinLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC1C1F266E86A7E03F6649675F17DA /* SpinLock.swift */; };
+		ADC9C062ED7E21B8581EBD3A277D5037 /* FunctionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F9F0E3B562616103B8629B7837D2C1 /* FunctionType.swift */; };
+		B03463759CFDAE9D9412A87358AB2A83 /* Container.TypeForwarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCD506429D533481BDCA27B25F7A6CE /* Container.TypeForwarding.swift */; };
+		B0988DFFB58DF9B105A3287E14B31134 /* SwinjectAutoregistration.h in Headers */ = {isa = PBXBuildFile; fileRef = A646ABBAAA7CB4C6EC46E496C0E8B41D /* SwinjectAutoregistration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B3515CB7916F5523A7F3F7246C8457 /* SwinjectStoryboard+SetUp.m in Sources */ = {isa = PBXBuildFile; fileRef = BF38774557CBE66F17FC57132BE47518 /* SwinjectStoryboard+SetUp.m */; };
+		B5D43F6FDBD593CC69CB2F728E0AB2F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33309C8BFF8B1F3130A0F07100E27F41 /* Foundation.framework */; };
+		B8761276C959268E69BE09250B9524BE /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94F8FB6F3C416402DB215A65BF78CE8 /* Container.swift */; };
+		BCE2440E1AC137ED661BF21DB0DA8A0D /* CheckResolved.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1943E65C34F4C688F0BF04210478122D /* CheckResolved.swift */; };
+		BDA78BC07DC369ED1E1B454B1A578947 /* RegistrationNameAssociatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20DC0E565C2530956E53DA4B9194350 /* RegistrationNameAssociatable.swift */; };
+		BF7683EAB76DF5804EFA5B9FB76F7120 /* UIStoryboard+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 84814C3F0DF78C2B5E333B5D4E588D23 /* UIStoryboard+Swizzling.m */; };
+		BFE213244C740D20A8299107F05430F8 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61CA35C08EED511B9389FD12B4131D4 /* Behavior.swift */; };
+		C58BA8F279D7052471150B0F8A53397D /* Pods-Bitcoin Adventurer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB3E36C0D1BD3D9F0084A2CFC52A180 /* Pods-Bitcoin Adventurer-dummy.m */; };
+		CA3F0FC49C8C96F986BC4B7E0EDEA044 /* Swinject-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED16018C633459445C61972BF8B7E86 /* Swinject-dummy.m */; };
+		CCAFAFAC9017F29B16BA81BB6BAB9B44 /* Pods-Bitcoin Adventurer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE63BE7BF9623CCA1DEE30C374AEA159 /* Pods-Bitcoin Adventurer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E186B7C4EE38640DE8A407D3ADA3E743 /* Container.Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B1159AA028516685B5FCC818F2559 /* Container.Logging.swift */; };
+		ED68D19F27445F1B6F3B2F74995729A3 /* SwinjectStoryboard+StoryboardReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4372CEF916A7D8EA9616104E360BDE38 /* SwinjectStoryboard+StoryboardReference.swift */; };
+		F241B123514431B96921DB4BA5C16A1D /* AutoRegistration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18894E2DF4D1A76B981F41ABC35E72F8 /* AutoRegistration.swift */; };
+		FC8E7ED9B26F29983D69154F960CFEEC /* _SwinjectStoryboardBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E316B9168675C7C2092C418824F4A /* _SwinjectStoryboardBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62259293FBDC55DAADFB3DBBD5B9C626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+		651C4123022CF7526065AF1BB8B7D529 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+		6A581A9A73C21AD69A1B4FA74FF4AAA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AB6C22153B56B1A56B06A3553EB5AA;
+			remoteInfo = SwinjectStoryboard;
+		};
+		6E06A17B2EF2165318D42756D6612522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+		83CC9D65F09985F28E57954F9ABF3DBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46065AF968A5A92D450BB21F7F24367D;
+			remoteInfo = Swinject;
+		};
+		AE67CE7C5488092C426A09AF6560EAEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3057E291093EA4CA29F959C95AD1E3D5;
+			remoteInfo = SwinjectAutoregistration;
+		};
+		C8957C3FB18FF594A5DFD8B5F4039C6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65AB6C22153B56B1A56B06A3553EB5AA;
+			remoteInfo = SwinjectStoryboard;
+		};
+		DD7DDE231945921EFE425C18FA9DC2DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3057E291093EA4CA29F959C95AD1E3D5;
+			remoteInfo = SwinjectAutoregistration;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008C0550E774D086A6F49097F5D3E548 /* SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboard.swift; path = Sources/SwinjectStoryboard.swift; sourceTree = "<group>"; };
+		055E316B9168675C7C2092C418824F4A /* _SwinjectStoryboardBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = _SwinjectStoryboardBase.m; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase.m"; sourceTree = "<group>"; };
+		09465ACD84802E78A5EF12A9E4A0FF9E /* ServiceEntry.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.TypeForwarding.swift; path = Sources/ServiceEntry.TypeForwarding.swift; sourceTree = "<group>"; };
+		0DCD506429D533481BDCA27B25F7A6CE /* Container.TypeForwarding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.TypeForwarding.swift; path = Sources/Container.TypeForwarding.swift; sourceTree = "<group>"; };
+		128F03C619376C794E5986F0A492E351 /* SwinjectStoryboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwinjectStoryboard.modulemap; sourceTree = "<group>"; };
+		1382DA1359EB2FE61CE7F850478C1A2B /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.release.xcconfig"; sourceTree = "<group>"; };
+		18894E2DF4D1A76B981F41ABC35E72F8 /* AutoRegistration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoRegistration.swift; path = Sources/AutoRegistration.swift; sourceTree = "<group>"; };
+		1943E65C34F4C688F0BF04210478122D /* CheckResolved.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CheckResolved.swift; path = Sources/CheckResolved.swift; sourceTree = "<group>"; };
+		1AB9E36E2FDDB878F772F8A2E198BC3D /* Swinject.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swinject.modulemap; sourceTree = "<group>"; };
+		23B29F4788F8302BB10F48FED2FA5276 /* Container+SwinjectStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Container+SwinjectStoryboard.swift"; path = "Sources/Container+SwinjectStoryboard.swift"; sourceTree = "<group>"; };
+		257390EFEF9263F2D470C0E649709132 /* SwinjectStoryboard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwinjectStoryboard.h; path = Sources/SwinjectStoryboard.h; sourceTree = "<group>"; };
+		276F0D399D793E25404D2E9B2427B323 /* SwinjectStoryboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwinjectStoryboard-Info.plist"; sourceTree = "<group>"; };
+		2B5588E9BC4225BA797782927B7F1923 /* Pods-Bitcoin Adventurer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bitcoin Adventurer-frameworks.sh"; sourceTree = "<group>"; };
+		2BC989AF99AC6580ED3172E9F2A36676 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/Operators.swift; sourceTree = "<group>"; };
+		2EB3E36C0D1BD3D9F0084A2CFC52A180 /* Pods-Bitcoin Adventurer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bitcoin Adventurer-dummy.m"; sourceTree = "<group>"; };
+		33309C8BFF8B1F3130A0F07100E27F41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3542D62F8270F6EF3CCB7A015F27F585 /* Pods-Bitcoin Adventurer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bitcoin Adventurer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectStoryboard.framework; path = SwinjectStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A95BB32E46A743CFFE9ED96F244218A /* SwinjectStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.release.xcconfig; sourceTree = "<group>"; };
+		3D15D96D4BB84D013CBA23A9C6BAECC7 /* Type.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Type.swift; path = Sources/Type.swift; sourceTree = "<group>"; };
+		3DCBFDFF951CEABF61D360404AD1E7AF /* ObjectScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.swift; path = Sources/ObjectScope.swift; sourceTree = "<group>"; };
+		41000833DA2FC6733B4F40B8DFFB259E /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		4372CEF916A7D8EA9616104E360BDE38 /* SwinjectStoryboard+StoryboardReference.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwinjectStoryboard+StoryboardReference.swift"; path = "Sources/SwinjectStoryboard+StoryboardReference.swift"; sourceTree = "<group>"; };
+		4843009EBFC6AAFE07AB22EEA544F34C /* Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resolver.swift; path = Sources/Resolver.swift; sourceTree = "<group>"; };
+		485CEE5C186465CBC7B1708976D32A73 /* GraphIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GraphIdentifier.swift; path = Sources/GraphIdentifier.swift; sourceTree = "<group>"; };
+		4866F502BF8DB7FBBEB0AFD0DE2FA477 /* SwinjectAutoregistration.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwinjectAutoregistration.modulemap; sourceTree = "<group>"; };
+		4D57EEE47768801A5E125732F52AD3C9 /* SwinjectAutoregistration-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectAutoregistration-umbrella.h"; sourceTree = "<group>"; };
+		4FE8C05A800963B45836C8717E96E609 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.modulemap"; sourceTree = "<group>"; };
+		5432735EA81ED7909BBF95C14AD2978C /* SynchronizedResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.swift; path = Sources/SynchronizedResolver.swift; sourceTree = "<group>"; };
+		5532309DCD545D1CEE7109E43E95B863 /* ObjectScope.Standard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectScope.Standard.swift; path = Sources/ObjectScope.Standard.swift; sourceTree = "<group>"; };
+		55E6DEAFA92B7D45EB09A9445EE2B4F3 /* ResolutionError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResolutionError.swift; path = Sources/ResolutionError.swift; sourceTree = "<group>"; };
+		5682E3C35037445D56A6EE91355846DB /* SwinjectAutoregistration.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectAutoregistration.debug.xcconfig; sourceTree = "<group>"; };
+		575C99D0D64F31F248ADACF1D1A465A8 /* Swinject-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-umbrella.h"; sourceTree = "<group>"; };
+		5AD36140C6E8772CF3B89E343D350BB8 /* Swinject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.release.xcconfig; sourceTree = "<group>"; };
+		5AE6E462E27C0F58E60A01B11F393930 /* UIStoryboard+Swizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIStoryboard+Swizzling.h"; path = "Sources/iOS-tvOS/UIStoryboard+Swizzling.h"; sourceTree = "<group>"; };
+		5EDEB13CEBB27EB801929139BDC619A4 /* Pods-Bitcoin Adventurer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin Adventurer.debug.xcconfig"; sourceTree = "<group>"; };
+		5FFDACA0F9C6A6E46276F31FCD20133A /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-Info.plist"; sourceTree = "<group>"; };
+		64071FB3A9D300522EF7313D2A350E94 /* Box.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Box.swift; path = Sources/Box.swift; sourceTree = "<group>"; };
+		65139CE1B13DFEFF9F678F6A2EB5744D /* SwinjectAutoregistration.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwinjectAutoregistration.framework; path = SwinjectAutoregistration.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6773A53DBFD1EE8C3D2EEFC7CA332B4D /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-frameworks.sh"; sourceTree = "<group>"; };
+		68F1656D351291107DE791CF9ABDE94C /* ViewController+Swinject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+Swinject.swift"; path = "Sources/ViewController+Swinject.swift"; sourceTree = "<group>"; };
+		69A8D87A93BA1FD610AD8C76824496CC /* SwinjectStoryboardOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwinjectStoryboardOption.swift; path = Sources/SwinjectStoryboardOption.swift; sourceTree = "<group>"; };
+		6BF764F83AA84F4DE255D0AA8EFBE4C5 /* Assembly.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembly.swift; path = Sources/Assembly.swift; sourceTree = "<group>"; };
+		6ED16018C633459445C61972BF8B7E86 /* Swinject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swinject-dummy.m"; sourceTree = "<group>"; };
+		748D7B28D0EC8CE362F2CE17C3EF76D5 /* SynchronizedResolver.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SynchronizedResolver.Arguments.swift; path = Sources/SynchronizedResolver.Arguments.swift; sourceTree = "<group>"; };
+		7542651A4284DBEBD36D92B549AB2240 /* _Resolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Resolver.swift; path = Sources/_Resolver.swift; sourceTree = "<group>"; };
+		768F0E9566EDA2FA642CC4AABF5BE06D /* InstanceWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceWrapper.swift; path = Sources/InstanceWrapper.swift; sourceTree = "<group>"; };
+		7B43F3B5D33CA33AE4DF3019B534F575 /* SwinjectStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectStoryboard.debug.xcconfig; sourceTree = "<group>"; };
+		7B9BAA3199D0CAEB00C68037376E0ABF /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
+		7EFABB2AC2F9D573C44DB1E37C208774 /* Assembler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Assembler.swift; path = Sources/Assembler.swift; sourceTree = "<group>"; };
+		7FC796F03F1958180361A995EE65D8F2 /* InjectionVerifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InjectionVerifiable.swift; path = Sources/InjectionVerifiable.swift; sourceTree = "<group>"; };
+		82BBED52077788CA6F649860539A4008 /* Swinject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Swinject.h; path = Sources/Swinject.h; sourceTree = "<group>"; };
+		84814C3F0DF78C2B5E333B5D4E588D23 /* UIStoryboard+Swizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIStoryboard+Swizzling.m"; path = "Sources/iOS-tvOS/UIStoryboard+Swizzling.m"; sourceTree = "<group>"; };
+		87F1363A8E7499E35DEF626057A11E63 /* Pods-Bitcoin Adventurer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin Adventurer.release.xcconfig"; sourceTree = "<group>"; };
+		88C23FDA436CB043D4455363CD899EA6 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-umbrella.h"; sourceTree = "<group>"; };
+		8A181632A1326B620BB2C54082EC57FF /* SwinjectAutoregistration-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwinjectAutoregistration-Info.plist"; sourceTree = "<group>"; };
+		8A53F3C626D32D27224F1C79A9E4E8A3 /* SwinjectStoryboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectStoryboard-dummy.m"; sourceTree = "<group>"; };
+		8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swinject.framework; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B87A7E257E878F19CFC6763441E7215 /* InstanceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InstanceStorage.swift; path = Sources/InstanceStorage.swift; sourceTree = "<group>"; };
+		8C9375FC12476692CA40D01CFAFC1132 /* _SwinjectStoryboardBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _SwinjectStoryboardBase.h; path = "Sources/iOS-tvOS/_SwinjectStoryboardBase.h"; sourceTree = "<group>"; };
+		9075CB7D7B8751E60F736B9AB5CECFC5 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		94B16C70AD57B314D77F6409772A3002 /* ServiceKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceKey.swift; path = Sources/ServiceKey.swift; sourceTree = "<group>"; };
+		977B44E203ADD0BD57F0971A8E7BF75F /* ServiceEntry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceEntry.swift; path = Sources/ServiceEntry.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F444F40B313C60E56F45A8972D75295 /* Pods_Bitcoin_Adventurer_Bitcoin_Adventurer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bitcoin_Adventurer_Bitcoin_Adventurer_Tests.framework; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A646ABBAAA7CB4C6EC46E496C0E8B41D /* SwinjectAutoregistration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwinjectAutoregistration.h; path = Sources/SwinjectAutoregistration.h; sourceTree = "<group>"; };
+		A6DD3C92E117137B883AD747C14EA96D /* Pods-Bitcoin Adventurer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin Adventurer-acknowledgements.plist"; sourceTree = "<group>"; };
+		A94F8FB6F3C416402DB215A65BF78CE8 /* Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.swift; path = Sources/Container.swift; sourceTree = "<group>"; };
+		AA4B522789A4DD5870D11A2602DC2FF1 /* Pods_Bitcoin_Adventurer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Bitcoin_Adventurer.framework; path = "Pods-Bitcoin Adventurer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC5DF8787179CBD2DE89AFA6653C6DE /* SwinjectAutoregistration-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwinjectAutoregistration-dummy.m"; sourceTree = "<group>"; };
+		AFE48E47990CE3B1FA212CCE4C40144D /* DebugHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DebugHelper.swift; path = Sources/DebugHelper.swift; sourceTree = "<group>"; };
+		B00527E26DBC55A74CCD17DA7458C748 /* SwinjectAutoregistration-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectAutoregistration-prefix.pch"; sourceTree = "<group>"; };
+		BA5B95F04E253C606D868470B53AEF5F /* TypeParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TypeParser.swift; path = Sources/TypeParser.swift; sourceTree = "<group>"; };
+		BAA8233E735A7258BBD93093E1AA5C7A /* Swinject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swinject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6B1159AA028516685B5FCC818F2559 /* Container.Logging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Logging.swift; path = Sources/Container.Logging.swift; sourceTree = "<group>"; };
+		BF38774557CBE66F17FC57132BE47518 /* SwinjectStoryboard+SetUp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SwinjectStoryboard+SetUp.m"; path = "Sources/SwinjectStoryboard+SetUp.m"; sourceTree = "<group>"; };
+		C20DC0E565C2530956E53DA4B9194350 /* RegistrationNameAssociatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegistrationNameAssociatable.swift; path = Sources/RegistrationNameAssociatable.swift; sourceTree = "<group>"; };
+		C61CA35C08EED511B9389FD12B4131D4 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
+		C8579086FEA828D38209B08A45895500 /* SwinjectStoryboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-umbrella.h"; sourceTree = "<group>"; };
+		CC94C702CDA3BB94C0618698951EB7D6 /* SwinjectAutoregistration.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwinjectAutoregistration.release.xcconfig; sourceTree = "<group>"; };
+		CDF798BBC82064ABC33AF385F747D827 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE76FCFAA75DF94DD683F5E6F5346F91 /* Pods-Bitcoin Adventurer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin Adventurer-Info.plist"; sourceTree = "<group>"; };
+		CEDC1C1F266E86A7E03F6649675F17DA /* SpinLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpinLock.swift; path = Sources/SpinLock.swift; sourceTree = "<group>"; };
+		D4A5772F0966D15F42254FBD3388EB06 /* UnavailableItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnavailableItems.swift; path = Sources/UnavailableItems.swift; sourceTree = "<group>"; };
+		D9F9F0E3B562616103B8629B7837D2C1 /* FunctionType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FunctionType.swift; path = Sources/FunctionType.swift; sourceTree = "<group>"; };
+		DD966C5DAACAC89F10F7188629CDC2A5 /* SwinjectStoryboardProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwinjectStoryboardProtocol.h; path = Sources/SwinjectStoryboardProtocol.h; sourceTree = "<group>"; };
+		DF94FDCD0F42C699A8FE4B94668C3B34 /* Swinject-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Swinject-Info.plist"; sourceTree = "<group>"; };
+		E01D11A05FED7786D571498707423008 /* Pods-Bitcoin Adventurer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Bitcoin Adventurer.modulemap"; sourceTree = "<group>"; };
+		E2CAC6C5BA873A41311EF09DCC897B91 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-dummy.m"; sourceTree = "<group>"; };
+		E6FBA91354EA44C4985C5E8932228CCC /* Swinject-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swinject-prefix.pch"; sourceTree = "<group>"; };
+		EA838DE2FA66597E13CA8777B12C239E /* SwinjectStoryboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwinjectStoryboard-prefix.pch"; sourceTree = "<group>"; };
+		EACD8A3877BD4E4567E44E55E1842173 /* Container.Arguments.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Container.Arguments.swift; path = Sources/Container.Arguments.swift; sourceTree = "<group>"; };
+		F6CDA33A5A5E9BB06CA626FD2C898B83 /* Swinject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swinject.debug.xcconfig; sourceTree = "<group>"; };
+		F8F958DB41DE79E278CFDF8C1ED25A81 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FE63BE7BF9623CCA1DEE30C374AEA159 /* Pods-Bitcoin Adventurer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Bitcoin Adventurer-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12D2771678A18C494B20C5339E7C8B71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7968ED3D5862C5374CFB480C6FC4EBFC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FC2CF677689F46529E69C65919815E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D43F6FDBD593CC69CB2F728E0AB2F8 /* Foundation.framework in Frameworks */,
+				12BB6EA1F429E03FD8537426CA8649B1 /* Swinject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B75DCA85340D86A08B86F5ECE13A5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				186177B11336F5B387FB53823CCFAB38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AED58965726E55A6B18261FA594A7DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40897F6CE4846A0B638385DD57F19A1C /* Foundation.framework in Frameworks */,
+				366D87585B9B71DC5BDF3D7B7FA9F847 /* Swinject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD70CC2FFE61819A30F64D9874F56507 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB55A5F673A158AE005B317D824EB5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BD2443C2A668755A1E2C312B44AAE9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB9E36E2FDDB878F772F8A2E198BC3D /* Swinject.modulemap */,
+				6ED16018C633459445C61972BF8B7E86 /* Swinject-dummy.m */,
+				DF94FDCD0F42C699A8FE4B94668C3B34 /* Swinject-Info.plist */,
+				E6FBA91354EA44C4985C5E8932228CCC /* Swinject-prefix.pch */,
+				575C99D0D64F31F248ADACF1D1A465A8 /* Swinject-umbrella.h */,
+				F6CDA33A5A5E9BB06CA626FD2C898B83 /* Swinject.debug.xcconfig */,
+				5AD36140C6E8772CF3B89E343D350BB8 /* Swinject.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swinject";
+			sourceTree = "<group>";
+		};
+		113FE8873A4399E5008251375210D09D /* SwinjectStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				8C9375FC12476692CA40D01CFAFC1132 /* _SwinjectStoryboardBase.h */,
+				055E316B9168675C7C2092C418824F4A /* _SwinjectStoryboardBase.m */,
+				64071FB3A9D300522EF7313D2A350E94 /* Box.swift */,
+				23B29F4788F8302BB10F48FED2FA5276 /* Container+SwinjectStoryboard.swift */,
+				7FC796F03F1958180361A995EE65D8F2 /* InjectionVerifiable.swift */,
+				C20DC0E565C2530956E53DA4B9194350 /* RegistrationNameAssociatable.swift */,
+				257390EFEF9263F2D470C0E649709132 /* SwinjectStoryboard.h */,
+				008C0550E774D086A6F49097F5D3E548 /* SwinjectStoryboard.swift */,
+				BF38774557CBE66F17FC57132BE47518 /* SwinjectStoryboard+SetUp.m */,
+				4372CEF916A7D8EA9616104E360BDE38 /* SwinjectStoryboard+StoryboardReference.swift */,
+				69A8D87A93BA1FD610AD8C76824496CC /* SwinjectStoryboardOption.swift */,
+				DD966C5DAACAC89F10F7188629CDC2A5 /* SwinjectStoryboardProtocol.h */,
+				5AE6E462E27C0F58E60A01B11F393930 /* UIStoryboard+Swizzling.h */,
+				84814C3F0DF78C2B5E333B5D4E588D23 /* UIStoryboard+Swizzling.m */,
+				7B9BAA3199D0CAEB00C68037376E0ABF /* UnavailableItems.swift */,
+				68F1656D351291107DE791CF9ABDE94C /* ViewController+Swinject.swift */,
+				1662F638993BD9ECE4DB50E9DBD92F08 /* Support Files */,
+			);
+			name = SwinjectStoryboard;
+			path = SwinjectStoryboard;
+			sourceTree = "<group>";
+		};
+		1662F638993BD9ECE4DB50E9DBD92F08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				128F03C619376C794E5986F0A492E351 /* SwinjectStoryboard.modulemap */,
+				8A53F3C626D32D27224F1C79A9E4E8A3 /* SwinjectStoryboard-dummy.m */,
+				276F0D399D793E25404D2E9B2427B323 /* SwinjectStoryboard-Info.plist */,
+				EA838DE2FA66597E13CA8777B12C239E /* SwinjectStoryboard-prefix.pch */,
+				C8579086FEA828D38209B08A45895500 /* SwinjectStoryboard-umbrella.h */,
+				7B43F3B5D33CA33AE4DF3019B534F575 /* SwinjectStoryboard.debug.xcconfig */,
+				3A95BB32E46A743CFFE9ED96F244218A /* SwinjectStoryboard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwinjectStoryboard";
+			sourceTree = "<group>";
+		};
+		3101D8B5106A5B408109F8BDB24854C4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33309C8BFF8B1F3130A0F07100E27F41 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4B7B9CCFE27EE46260636E2A40A427D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B522789A4DD5870D11A2602DC2FF1 /* Pods_Bitcoin_Adventurer.framework */,
+				9F444F40B313C60E56F45A8972D75295 /* Pods_Bitcoin_Adventurer_Bitcoin_Adventurer_Tests.framework */,
+				8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject.framework */,
+				65139CE1B13DFEFF9F678F6A2EB5744D /* SwinjectAutoregistration.framework */,
+				357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D34A11A7D116198CC55B30E4B72A7AA /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4FE8C05A800963B45836C8717E96E609 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.modulemap */,
+				9075CB7D7B8751E60F736B9AB5CECFC5 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-acknowledgements.markdown */,
+				F8F958DB41DE79E278CFDF8C1ED25A81 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-acknowledgements.plist */,
+				E2CAC6C5BA873A41311EF09DCC897B91 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-dummy.m */,
+				6773A53DBFD1EE8C3D2EEFC7CA332B4D /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-frameworks.sh */,
+				5FFDACA0F9C6A6E46276F31FCD20133A /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-Info.plist */,
+				88C23FDA436CB043D4455363CD899EA6 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-umbrella.h */,
+				CDF798BBC82064ABC33AF385F747D827 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.debug.xcconfig */,
+				1382DA1359EB2FE61CE7F850478C1A2B /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.release.xcconfig */,
+			);
+			name = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests";
+			path = "Target Support Files/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests";
+			sourceTree = "<group>";
+		};
+		8BF0C29521E73E598E6937D1A576E38C /* Swinject */ = {
+			isa = PBXGroup;
+			children = (
+				7542651A4284DBEBD36D92B549AB2240 /* _Resolver.swift */,
+				7EFABB2AC2F9D573C44DB1E37C208774 /* Assembler.swift */,
+				6BF764F83AA84F4DE255D0AA8EFBE4C5 /* Assembly.swift */,
+				C61CA35C08EED511B9389FD12B4131D4 /* Behavior.swift */,
+				A94F8FB6F3C416402DB215A65BF78CE8 /* Container.swift */,
+				EACD8A3877BD4E4567E44E55E1842173 /* Container.Arguments.swift */,
+				BC6B1159AA028516685B5FCC818F2559 /* Container.Logging.swift */,
+				0DCD506429D533481BDCA27B25F7A6CE /* Container.TypeForwarding.swift */,
+				AFE48E47990CE3B1FA212CCE4C40144D /* DebugHelper.swift */,
+				D9F9F0E3B562616103B8629B7837D2C1 /* FunctionType.swift */,
+				485CEE5C186465CBC7B1708976D32A73 /* GraphIdentifier.swift */,
+				8B87A7E257E878F19CFC6763441E7215 /* InstanceStorage.swift */,
+				768F0E9566EDA2FA642CC4AABF5BE06D /* InstanceWrapper.swift */,
+				3DCBFDFF951CEABF61D360404AD1E7AF /* ObjectScope.swift */,
+				5532309DCD545D1CEE7109E43E95B863 /* ObjectScope.Standard.swift */,
+				41000833DA2FC6733B4F40B8DFFB259E /* Resolver.swift */,
+				977B44E203ADD0BD57F0971A8E7BF75F /* ServiceEntry.swift */,
+				09465ACD84802E78A5EF12A9E4A0FF9E /* ServiceEntry.TypeForwarding.swift */,
+				94B16C70AD57B314D77F6409772A3002 /* ServiceKey.swift */,
+				CEDC1C1F266E86A7E03F6649675F17DA /* SpinLock.swift */,
+				82BBED52077788CA6F649860539A4008 /* Swinject.h */,
+				5432735EA81ED7909BBF95C14AD2978C /* SynchronizedResolver.swift */,
+				748D7B28D0EC8CE362F2CE17C3EF76D5 /* SynchronizedResolver.Arguments.swift */,
+				D4A5772F0966D15F42254FBD3388EB06 /* UnavailableItems.swift */,
+				0BD2443C2A668755A1E2C312B44AAE9D /* Support Files */,
+			);
+			name = Swinject;
+			path = Swinject;
+			sourceTree = "<group>";
+		};
+		9A36522C6B5CB250EF440526C597CDFA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4866F502BF8DB7FBBEB0AFD0DE2FA477 /* SwinjectAutoregistration.modulemap */,
+				ADC5DF8787179CBD2DE89AFA6653C6DE /* SwinjectAutoregistration-dummy.m */,
+				8A181632A1326B620BB2C54082EC57FF /* SwinjectAutoregistration-Info.plist */,
+				B00527E26DBC55A74CCD17DA7458C748 /* SwinjectAutoregistration-prefix.pch */,
+				4D57EEE47768801A5E125732F52AD3C9 /* SwinjectAutoregistration-umbrella.h */,
+				5682E3C35037445D56A6EE91355846DB /* SwinjectAutoregistration.debug.xcconfig */,
+				CC94C702CDA3BB94C0618698951EB7D6 /* SwinjectAutoregistration.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwinjectAutoregistration";
+			sourceTree = "<group>";
+		};
+		9C4C5801B863824BE3BF2CD199D91ED9 /* Pods-Bitcoin Adventurer */ = {
+			isa = PBXGroup;
+			children = (
+				E01D11A05FED7786D571498707423008 /* Pods-Bitcoin Adventurer.modulemap */,
+				3542D62F8270F6EF3CCB7A015F27F585 /* Pods-Bitcoin Adventurer-acknowledgements.markdown */,
+				A6DD3C92E117137B883AD747C14EA96D /* Pods-Bitcoin Adventurer-acknowledgements.plist */,
+				2EB3E36C0D1BD3D9F0084A2CFC52A180 /* Pods-Bitcoin Adventurer-dummy.m */,
+				2B5588E9BC4225BA797782927B7F1923 /* Pods-Bitcoin Adventurer-frameworks.sh */,
+				CE76FCFAA75DF94DD683F5E6F5346F91 /* Pods-Bitcoin Adventurer-Info.plist */,
+				FE63BE7BF9623CCA1DEE30C374AEA159 /* Pods-Bitcoin Adventurer-umbrella.h */,
+				5EDEB13CEBB27EB801929139BDC619A4 /* Pods-Bitcoin Adventurer.debug.xcconfig */,
+				87F1363A8E7499E35DEF626057A11E63 /* Pods-Bitcoin Adventurer.release.xcconfig */,
+			);
+			name = "Pods-Bitcoin Adventurer";
+			path = "Target Support Files/Pods-Bitcoin Adventurer";
+			sourceTree = "<group>";
+		};
+		AEDAFEC5E99A050A3F6F188CFD732FC5 /* SwinjectAutoregistration */ = {
+			isa = PBXGroup;
+			children = (
+				18894E2DF4D1A76B981F41ABC35E72F8 /* AutoRegistration.swift */,
+				1943E65C34F4C688F0BF04210478122D /* CheckResolved.swift */,
+				2BC989AF99AC6580ED3172E9F2A36676 /* Operators.swift */,
+				55E6DEAFA92B7D45EB09A9445EE2B4F3 /* ResolutionError.swift */,
+				4843009EBFC6AAFE07AB22EEA544F34C /* Resolver.swift */,
+				A646ABBAAA7CB4C6EC46E496C0E8B41D /* SwinjectAutoregistration.h */,
+				3D15D96D4BB84D013CBA23A9C6BAECC7 /* Type.swift */,
+				BA5B95F04E253C606D868470B53AEF5F /* TypeParser.swift */,
+				9A36522C6B5CB250EF440526C597CDFA /* Support Files */,
+			);
+			name = SwinjectAutoregistration;
+			path = SwinjectAutoregistration;
+			sourceTree = "<group>";
+		};
+		BA8C2C39327A6D501F94E74E33A259FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BF0C29521E73E598E6937D1A576E38C /* Swinject */,
+				AEDAFEC5E99A050A3F6F188CFD732FC5 /* SwinjectAutoregistration */,
+				113FE8873A4399E5008251375210D09D /* SwinjectStoryboard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD40D27A1402A492C40EAC007CC96B92 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C4C5801B863824BE3BF2CD199D91ED9 /* Pods-Bitcoin Adventurer */,
+				4D34A11A7D116198CC55B30E4B72A7AA /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				FE186E50CE2606CBF14F708CD7EA2E0A /* Frameworks */,
+				BA8C2C39327A6D501F94E74E33A259FD /* Pods */,
+				4B7B9CCFE27EE46260636E2A40A427D7 /* Products */,
+				BD40D27A1402A492C40EAC007CC96B92 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FE186E50CE2606CBF14F708CD7EA2E0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAA8233E735A7258BBD93093E1AA5C7A /* Swinject.framework */,
+				3101D8B5106A5B408109F8BDB24854C4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		754981D178AC6387A40F0AD809319E28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289A45F6FC903F7CACB7A296B2E1B0CF /* _SwinjectStoryboardBase.h in Headers */,
+				085D3AC8A8D3073D6F8C75E282E134F5 /* SwinjectStoryboard-umbrella.h in Headers */,
+				1DB8F37A8290A681161B34FF03768686 /* SwinjectStoryboard.h in Headers */,
+				538BEBBDE082976E9153711BD802CAB5 /* SwinjectStoryboardProtocol.h in Headers */,
+				2C0896A1185D8B117CF641D544B37756 /* UIStoryboard+Swizzling.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA84A23AFBA75F5A5277C5218D7C0C67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574977C7CF4F2DF6E0FB64E79E2267FD /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54BD03948C86B39AADA2516E6006644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6FE915E4D94D1630CBC36E5BE95670 /* SwinjectAutoregistration-umbrella.h in Headers */,
+				B0988DFFB58DF9B105A3287E14B31134 /* SwinjectAutoregistration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F255351D4035CFB6CE766D1C2A015D1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCAFAFAC9017F29B16BA81BB6BAB9B44 /* Pods-Bitcoin Adventurer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F37F708D79BEA5AF5861C4B410EDCD85 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4DA079848B3E2E1F71DA76FA431194 /* Swinject-umbrella.h in Headers */,
+				0320BF6A9F60413E4CF1E8CFF0E5B6A4 /* Swinject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		272EAA4E1EAFE5A4A62DF9C139CB6A05 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5153D51BBBE4F7A807C8D6D9AAABC8BF /* Build configuration list for PBXNativeTarget "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests" */;
+			buildPhases = (
+				BA84A23AFBA75F5A5277C5218D7C0C67 /* Headers */,
+				B8E9370E283EB6B8C8D940A62CD3143E /* Sources */,
+				12D2771678A18C494B20C5339E7C8B71 /* Frameworks */,
+				5111520E31F751664E2C55D798475396 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				92E8FE66E6FB37734B35FBA75FB6D6A5 /* PBXTargetDependency */,
+				142645E9F7844B8470D03C1467FC7471 /* PBXTargetDependency */,
+				1F3F0FE9D18EC5C30FC642B5172F3DC3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests";
+			productName = "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests";
+			productReference = 9F444F40B313C60E56F45A8972D75295 /* Pods_Bitcoin_Adventurer_Bitcoin_Adventurer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1A9E6920177FB6BA1989685845ADAA /* Build configuration list for PBXNativeTarget "SwinjectAutoregistration" */;
+			buildPhases = (
+				D54BD03948C86B39AADA2516E6006644 /* Headers */,
+				9B1458BC4A792F533F1A2B329DBD687A /* Sources */,
+				AED58965726E55A6B18261FA594A7DF6 /* Frameworks */,
+				FD1422DCB6765A58CC2872C00968F058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BDE529E57D56A9AD8163401098D7E3B /* PBXTargetDependency */,
+			);
+			name = SwinjectAutoregistration;
+			productName = SwinjectAutoregistration;
+			productReference = 65139CE1B13DFEFF9F678F6A2EB5744D /* SwinjectAutoregistration.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46065AF968A5A92D450BB21F7F24367D /* Swinject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60E9C8ECB8CA0FC2E5B9016923ED6B59 /* Build configuration list for PBXNativeTarget "Swinject" */;
+			buildPhases = (
+				F37F708D79BEA5AF5861C4B410EDCD85 /* Headers */,
+				9915944648A9AE227699E025EDCB54B3 /* Sources */,
+				8B75DCA85340D86A08B86F5ECE13A5F0 /* Frameworks */,
+				39AE1935A8F1FFAF3EA86A36F1F7BA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swinject;
+			productName = Swinject;
+			productReference = 8ACA110EF3B35B3FCC08297B3799D9AD /* Swinject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B7B6F5859D7AA3FE3183AC7379A1EA /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */;
+			buildPhases = (
+				754981D178AC6387A40F0AD809319E28 /* Headers */,
+				6A6F1313ED86080F0D958A8496607397 /* Sources */,
+				42FC2CF677689F46529E69C65919815E /* Frameworks */,
+				AA75118951C34C263003D5D305507E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2890D8F75DC281C737ACD788B2DB86A /* PBXTargetDependency */,
+			);
+			name = SwinjectStoryboard;
+			productName = SwinjectStoryboard;
+			productReference = 357C4AA20CA5BD0953ECF0CF54A0252F /* SwinjectStoryboard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AF358C13B85F323E543E21D9CDC267F7 /* Pods-Bitcoin Adventurer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84666E8E039FE5952BCF8932E5D6E89E /* Build configuration list for PBXNativeTarget "Pods-Bitcoin Adventurer" */;
+			buildPhases = (
+				F255351D4035CFB6CE766D1C2A015D1F /* Headers */,
+				A042B3E14F204A8793E3AF76A0A53330 /* Sources */,
+				FD70CC2FFE61819A30F64D9874F56507 /* Frameworks */,
+				DB52BDE0C04759C640638BB3700214D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF9A09FF9A51712D227A313750F2A03 /* PBXTargetDependency */,
+				1382CB36001F2BD87ADC27864BCF7093 /* PBXTargetDependency */,
+				6F9749F32F144F61AD885C36F7101792 /* PBXTargetDependency */,
+			);
+			name = "Pods-Bitcoin Adventurer";
+			productName = "Pods-Bitcoin Adventurer";
+			productReference = AA4B522789A4DD5870D11A2602DC2FF1 /* Pods_Bitcoin_Adventurer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4B7B9CCFE27EE46260636E2A40A427D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF358C13B85F323E543E21D9CDC267F7 /* Pods-Bitcoin Adventurer */,
+				272EAA4E1EAFE5A4A62DF9C139CB6A05 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests */,
+				46065AF968A5A92D450BB21F7F24367D /* Swinject */,
+				3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */,
+				65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AE1935A8F1FFAF3EA86A36F1F7BA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5111520E31F751664E2C55D798475396 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA75118951C34C263003D5D305507E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB52BDE0C04759C640638BB3700214D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1422DCB6765A58CC2872C00968F058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A6F1313ED86080F0D958A8496607397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC8E7ED9B26F29983D69154F960CFEEC /* _SwinjectStoryboardBase.m in Sources */,
+				86914FDCE5B14A7B40CC06BA7BD5994C /* Box.swift in Sources */,
+				636BF57AB45644C1E14DF687C3C484FF /* Container+SwinjectStoryboard.swift in Sources */,
+				4A310BBCD0D1EBD4C15BF0912D84D936 /* InjectionVerifiable.swift in Sources */,
+				BDA78BC07DC369ED1E1B454B1A578947 /* RegistrationNameAssociatable.swift in Sources */,
+				B5B3515CB7916F5523A7F3F7246C8457 /* SwinjectStoryboard+SetUp.m in Sources */,
+				ED68D19F27445F1B6F3B2F74995729A3 /* SwinjectStoryboard+StoryboardReference.swift in Sources */,
+				3C5CCEA05783430FFF25364FA4A65E78 /* SwinjectStoryboard-dummy.m in Sources */,
+				270C318D84F6CEA035266525A50393A7 /* SwinjectStoryboard.swift in Sources */,
+				43F110443A12380FC5D1A9498285F60E /* SwinjectStoryboardOption.swift in Sources */,
+				BF7683EAB76DF5804EFA5B9FB76F7120 /* UIStoryboard+Swizzling.m in Sources */,
+				6F75C6351AC878C9AE44B14A2B3FC707 /* UnavailableItems.swift in Sources */,
+				44B1AACE3B51995D030C8EEDE200CEBA /* ViewController+Swinject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9915944648A9AE227699E025EDCB54B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26D8000B95488FED0701DF3FFF315F8 /* _Resolver.swift in Sources */,
+				7CD92B345D1D6558C44749DE5239BEF4 /* Assembler.swift in Sources */,
+				6F14D5991C0E7E7FE61ECC622A73422A /* Assembly.swift in Sources */,
+				BFE213244C740D20A8299107F05430F8 /* Behavior.swift in Sources */,
+				A4D25312A0CC165FB3DE4A4C7B499A25 /* Container.Arguments.swift in Sources */,
+				E186B7C4EE38640DE8A407D3ADA3E743 /* Container.Logging.swift in Sources */,
+				B8761276C959268E69BE09250B9524BE /* Container.swift in Sources */,
+				B03463759CFDAE9D9412A87358AB2A83 /* Container.TypeForwarding.swift in Sources */,
+				2EE54EC7ECDA42C13C4F48916BFDB12C /* DebugHelper.swift in Sources */,
+				ADC9C062ED7E21B8581EBD3A277D5037 /* FunctionType.swift in Sources */,
+				0B4C5F38682EE4ABBA0A406C5B45897C /* GraphIdentifier.swift in Sources */,
+				5474FB639FA51C1899E1DBE4979AF188 /* InstanceStorage.swift in Sources */,
+				410D90F0983E136B023488FD8C4031D6 /* InstanceWrapper.swift in Sources */,
+				12015E8F1145CB5D99F0D9BF5AD0F3A1 /* ObjectScope.Standard.swift in Sources */,
+				2BE6C561983E03729CCF1405B3F7FBA8 /* ObjectScope.swift in Sources */,
+				5E6093189222761DABCF0ABB836CBD3F /* Resolver.swift in Sources */,
+				1D66FD7BED1FC46A46F33E685CB1ADA4 /* ServiceEntry.swift in Sources */,
+				050C568E3BA73173980F463DFB08778B /* ServiceEntry.TypeForwarding.swift in Sources */,
+				303039803386B5BFD467902899141CD2 /* ServiceKey.swift in Sources */,
+				AA3793CECFAC316243689B4CE15A6A44 /* SpinLock.swift in Sources */,
+				CA3F0FC49C8C96F986BC4B7E0EDEA044 /* Swinject-dummy.m in Sources */,
+				797F78E38B84AD04989D285EA28FBFEC /* SynchronizedResolver.Arguments.swift in Sources */,
+				2DD5198D3A7F3176CB395B0610B1E480 /* SynchronizedResolver.swift in Sources */,
+				4C4218248134D49CD349F0BC5AD11EDC /* UnavailableItems.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1458BC4A792F533F1A2B329DBD687A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F241B123514431B96921DB4BA5C16A1D /* AutoRegistration.swift in Sources */,
+				BCE2440E1AC137ED661BF21DB0DA8A0D /* CheckResolved.swift in Sources */,
+				7354ADCE13A1DA48D4BA20C8936CF425 /* Operators.swift in Sources */,
+				28FF3D85AABAF3BFEF1E11D421133D67 /* ResolutionError.swift in Sources */,
+				2F2A4E1978280B3DCFB683E8C72198B7 /* Resolver.swift in Sources */,
+				3A4B8499C44910542E25E6F7F03575CE /* SwinjectAutoregistration-dummy.m in Sources */,
+				03031A0426F3F4856AD96D3D6B4D37C5 /* Type.swift in Sources */,
+				9D25303F82C3BA6071FCB92146C5F835 /* TypeParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A042B3E14F204A8793E3AF76A0A53330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58BA8F279D7052471150B0F8A53397D /* Pods-Bitcoin Adventurer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8E9370E283EB6B8C8D940A62CD3143E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1841D0599340B9B3CB513F7B45B8B832 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1382CB36001F2BD87ADC27864BCF7093 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectAutoregistration;
+			target = 3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */;
+			targetProxy = AE67CE7C5488092C426A09AF6560EAEF /* PBXContainerItemProxy */;
+		};
+		142645E9F7844B8470D03C1467FC7471 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectAutoregistration;
+			target = 3057E291093EA4CA29F959C95AD1E3D5 /* SwinjectAutoregistration */;
+			targetProxy = DD7DDE231945921EFE425C18FA9DC2DE /* PBXContainerItemProxy */;
+		};
+		1EF9A09FF9A51712D227A313750F2A03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = 83CC9D65F09985F28E57954F9ABF3DBB /* PBXContainerItemProxy */;
+		};
+		1F3F0FE9D18EC5C30FC642B5172F3DC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectStoryboard;
+			target = 65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */;
+			targetProxy = 6A581A9A73C21AD69A1B4FA74FF4AAA9 /* PBXContainerItemProxy */;
+		};
+		4BDE529E57D56A9AD8163401098D7E3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = 62259293FBDC55DAADFB3DBBD5B9C626 /* PBXContainerItemProxy */;
+		};
+		6F9749F32F144F61AD885C36F7101792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwinjectStoryboard;
+			target = 65AB6C22153B56B1A56B06A3553EB5AA /* SwinjectStoryboard */;
+			targetProxy = C8957C3FB18FF594A5DFD8B5F4039C6F /* PBXContainerItemProxy */;
+		};
+		92E8FE66E6FB37734B35FBA75FB6D6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = 6E06A17B2EF2165318D42756D6612522 /* PBXContainerItemProxy */;
+		};
+		E2890D8F75DC281C737ACD788B2DB86A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swinject;
+			target = 46065AF968A5A92D450BB21F7F24367D /* Swinject */;
+			targetProxy = 651C4123022CF7526065AF1BB8B7D529 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FF39B11775CFBD7571654AE8761B19B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5682E3C35037445D56A6EE91355846DB /* SwinjectAutoregistration.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration.modulemap";
+				PRODUCT_MODULE_NAME = SwinjectAutoregistration;
+				PRODUCT_NAME = SwinjectAutoregistration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		14CFAF4430496DEE446E0A8C72284E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A95BB32E46A743CFFE9ED96F244218A /* SwinjectStoryboard.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard.modulemap";
+				PRODUCT_MODULE_NAME = SwinjectStoryboard;
+				PRODUCT_NAME = SwinjectStoryboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D752ABA844BCAED262534FC963E0145 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1382DA1359EB2FE61CE7F850478C1A2B /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F6DE5CB85B3D27861C265297818B207 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC94C702CDA3BB94C0618698951EB7D6 /* SwinjectAutoregistration.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwinjectAutoregistration/SwinjectAutoregistration.modulemap";
+				PRODUCT_MODULE_NAME = SwinjectAutoregistration;
+				PRODUCT_NAME = SwinjectAutoregistration;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64A3E4EB50BEA377B8EFD439E8CEBC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD36140C6E8772CF3B89E343D350BB8 /* Swinject.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swinject/Swinject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swinject/Swinject.modulemap";
+				PRODUCT_MODULE_NAME = Swinject;
+				PRODUCT_NAME = Swinject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D06A35B080CCAD6FEA62805904D40CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF798BBC82064ABC33AF385F747D827 /* Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests/Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		843C9E939D4AF4B73A3CD75BA3687589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B43F3B5D33CA33AE4DF3019B534F575 /* SwinjectStoryboard.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwinjectStoryboard/SwinjectStoryboard.modulemap";
+				PRODUCT_MODULE_NAME = SwinjectStoryboard;
+				PRODUCT_NAME = SwinjectStoryboard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7B67B03E3E6ADBE884632FAD2F5F54D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CDA33A5A5E9BB06CA626FD2C898B83 /* Swinject.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swinject/Swinject-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swinject/Swinject-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Swinject/Swinject.modulemap";
+				PRODUCT_MODULE_NAME = Swinject;
+				PRODUCT_NAME = Swinject;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4235D391A57E0831A8B26E3CE999AD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F1363A8E7499E35DEF626057A11E63 /* Pods-Bitcoin Adventurer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin Adventurer/Pods-Bitcoin Adventurer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin Adventurer/Pods-Bitcoin Adventurer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D40B4A58A2CFB42F292DCDA56C9B8861 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EDEB13CEBB27EB801929139BDC619A4 /* Pods-Bitcoin Adventurer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Bitcoin Adventurer/Pods-Bitcoin Adventurer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Bitcoin Adventurer/Pods-Bitcoin Adventurer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5153D51BBBE4F7A807C8D6D9AAABC8BF /* Build configuration list for PBXNativeTarget "Pods-Bitcoin Adventurer-Bitcoin Adventurer Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D06A35B080CCAD6FEA62805904D40CE /* Debug */,
+				2D752ABA844BCAED262534FC963E0145 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60E9C8ECB8CA0FC2E5B9016923ED6B59 /* Build configuration list for PBXNativeTarget "Swinject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7B67B03E3E6ADBE884632FAD2F5F54D /* Debug */,
+				64A3E4EB50BEA377B8EFD439E8CEBC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84666E8E039FE5952BCF8932E5D6E89E /* Build configuration list for PBXNativeTarget "Pods-Bitcoin Adventurer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40B4A58A2CFB42F292DCDA56C9B8861 /* Debug */,
+				C4235D391A57E0831A8B26E3CE999AD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B7B6F5859D7AA3FE3183AC7379A1EA /* Build configuration list for PBXNativeTarget "SwinjectStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843C9E939D4AF4B73A3CD75BA3687589 /* Debug */,
+				14CFAF4430496DEE446E0A8C72284E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1A9E6920177FB6BA1989685845ADAA /* Build configuration list for PBXNativeTarget "SwinjectAutoregistration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FF39B11775CFBD7571654AE8761B19B /* Debug */,
+				5F6DE5CB85B3D27861C265297818B207 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
